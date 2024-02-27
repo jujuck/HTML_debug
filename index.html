@@ -69,18 +69,18 @@
         <section>
           <h2>Voici des pistes de recherches</h2>
           <ol>
-            <li><details>Vérifier si les balises ouvrantes ont bien leurs équivalents en fermantes<p>Tips 1</details></li>
-            <li><details>Vérifier l'ordre de fermeture de balises<summary>Tips 2</details></li>
-            <li><details>Quid de l'accessibilité (formulaire et image)<summary>Tips 3</details></li>
-            <li><details>C'est quoi cette balise étrange ?<summary>Tips 4</details>Oups something went wrong</li>
-            <li><details>Regarde bien la source de l'image<summary>Tips 5</details></li>
-            <li><details>Et maintenant, améliore le code<summary>Tips 6</details></li>
+            <li><details><summary>Vérifier si les balises ouvrantes ont bien leurs équivalents en fermantes<p>Tips 1</details></li>
+            <li><details><summary>Vérifier l'ordre de fermeture de balises</summary>Tips 2</details></li>
+            <li><details><summary>Quid de l'accessibilité (formulaire et image)</summary>Tips 3</details></li>
+            <li><details><summary>C'est quoi cette balise étrange ?</summary>Tips 4</details>Oups something went wrong</li>
+            <li><details><summary>Regarde bien la source de l'image</summary>Tips 5</details></li>
+            <li><details><summary>Et maintenant, améliore le code</summary>Tips 6</details></li>
           </ol>
         </section>
       </section>
     </main>
     <footer>
-      <form action="POST">
+      <form action="POST" action="/action/404">
         <h3>Contactez nous</h3>
         <label for="email">
           <input
@@ -94,7 +94,7 @@
         <label>
         <label for="name">
           <input
-            type="name"
+            type="text"
             id="name"
             name="name"
             minlength="150"
@@ -104,7 +104,7 @@
         </label>
         <label for="lastname">
           <input
-            type="lastname"
+            type="text"
             id="lastname"
             name="lastname"
             maxlength="1"
@@ -113,7 +113,7 @@
           />
         </label>
         <label for="message">
-          <textarea id="message" name="message" rows="10" cols="2500" required />
+          <textarea id="message" name="message" rows="10" cols="2500" required/>
         </label>
         <button type="submit">Envoyer</button>
       </form>
