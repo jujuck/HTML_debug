@@ -1,4 +1,4 @@
-### Exercice pratique de recherche d'erreur de code
+### Exercice pratique de recherche d'erreurs de code
 
 Aide toi de l'inspecteur de code pour résoudre les problèmes de HTML (Les fichiers sources peuvent aussi être utilisés).
 
@@ -8,7 +8,7 @@ Tu peux trouver le résultat final ici
 ## Listes des erreurs
 
 - src de l'image
-- inversion balise li et ul
+- inversion des balises li et ul
 - p en place de summary
 - croisement des balises sections
 - manque le texte alternatif
